@@ -1,0 +1,84 @@
+body {
+	background-color: #000; /* black background */
+	font-family: Arial, sans-serif;
+  }
+  
+  .container {
+	max-width: 400px; /* adjust the width to your liking */
+	margin: 40px auto; /* center the container horizontally */
+	padding: 20px;
+	background-color:  greenyellow; /* white background for the container */
+	border: 1px solid #ddd; /* light gray border */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+	text-align: center; /* center the content horizontally */
+	
+  }
+  
+  .login-box {
+	background-color: #000; /* black background for the login box */
+	padding: 20px;
+	border: 1px solid red; /* red border */
+	border-radius: 10px; /* rounded corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* darker shadow */
+	color: #fff; /* white text color */
+	text-align: center; /* center the content horizontally */
+  }
+  
+  h1 {
+	margin-top: 0;
+	color: #fff; /* white text color */
+  }
+  
+  label {
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 10px;
+	color: #fff; /* white text color */
+	text-align: right;
+	padding-right: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+	width: 200px;
+	height: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc; /* light gray border */
+	border-radius: 5px; /* rounded corners */
+	font-size: 16px;
+  }
+  
+  input[type="submit"] {
+	width: 100%;
+	height: 40px;
+	background-color: red; /* red background */
+	color: #fff; /* white text color */
+	padding: 10px;
+	border: none;
+	border-radius: 5px; /* rounded corners */
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #c00; /* darker red background on hover */
+  }
+  
+  .error {
+	color: red; /* red text color for error messages */
+  }
+
+   
+  login-box h1#BuyIt {
+	position: relative;
+  }
+  
+ 
+  .logo {
+	position: absolute;
+	
+	top: 130px;
+	right: 615px;
+	width: 50px;
+	height: auto;
+    border-radius: 100%;
+  }

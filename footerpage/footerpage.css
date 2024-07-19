@@ -1,0 +1,43 @@
+/* footerpage.css */
+
+.footer {
+    background-color: #000;
+    color: #ff0000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change to row for horizontal alignment */
+  }
+  
+  .footer-text {
+    margin: 10px 0;
+  }
+  
+  .footer-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0 0.5rem; /* Add space between icons */
+    object-fit: cover;
+    padding: 2px;
+    background-color: #fff; /* Optional: add a white background to the logo */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow to the logo */
+  }
+  
+  .footer h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  h4, h5 {
+    color: #FFFFFF; /* or simply "white" */
+  }

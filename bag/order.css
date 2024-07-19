@@ -1,0 +1,22 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust height as needed */
+    background-color: black; /* Light grey background */
+  }
+  
+  .product-image {
+    width: 300px; /* Adjust image size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .order-confirmation {
+    color: darkred; /* Red text color */
+    font-size: 44px; /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center;
+  }
+  
